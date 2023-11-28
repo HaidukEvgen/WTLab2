@@ -1,0 +1,164 @@
+* {
+    color: black;
+}
+
+.wrapper {
+    min-height: 100vh;
+    height: auto;
+    width: 100vw;
+    background-color: white;
+}
+
+.back {
+    position: absolute;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.content {
+    padding: 50px;
+    background-color: white;
+}
+
+.film-details {
+    display: flex;
+}
+
+.film-details-left {
+    flex: 1;
+}
+
+.poster {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.btn-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-add-review {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    color: white;
+    background-color: #1092e8;
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btn-add-review span {
+    font-size: 24px;
+    margin-right: 5px;
+}
+
+.btn-add-review:hover {
+    background-color: #3f00ff;
+    transition: 0.2s;
+}
+
+.btn-add-review:disabled {
+    cursor: not-allowed;
+    background-color: #888888;
+    color: #555555;
+}
+
+.btn-add-review:disabled span {
+    color: #555555;
+}
+
+.film-details-right {
+    flex: 2;
+    padding: 20px;
+    background-color: white;
+}
+
+.film-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.film-rating {
+    background-color: #3f00ff;
+    color: white;
+    padding: 3px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.film-description {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.film-reviews {
+    margin-top: 20px;
+}
+
+.reviews-header {
+    margin-bottom: 20px;
+}
+
+.review {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-bottom: 40px;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.review-top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.review-top .user {
+    font-size: 20px;
+}
+
+.review-top .user-rating {
+    margin: 0 10px;
+}
+
+.review-top .review-rating {
+    font-size: 18px;
+    color: white;
+    background-color: #3f00ff;
+    border-radius: 5px;
+    padding: 3px 10px;
+}
+
+.review .text {
+    font-size: 18px;
+}
+
+.delete-button {
+    border: 1px solid red;
+    background-color: transparent;
+    color: red;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}

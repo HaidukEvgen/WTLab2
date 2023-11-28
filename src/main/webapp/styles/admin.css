@@ -1,0 +1,67 @@
+.wrapper {
+    min-height: 100vh;
+    height: auto;
+    width: 100vw;
+    background-color: white;
+    color: black;
+}
+
+.content {
+    padding: 50px;
+    background-color: white;
+}
+
+.back {
+    position: absolute;
+    text-decoration: none;
+    font-size: 40px;
+    color: black;
+}
+
+.table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.table th {
+    background-color: #1092e8;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.table td, .table th {
+    color: black;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.rating-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rating-operation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1092e8;
+    color: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.ban {
+    border: 1px solid red;
+    background-color: transparent;
+    color: red;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}

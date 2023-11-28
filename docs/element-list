@@ -1,0 +1,9 @@
+by.bsuir.wtlab2.controller
+by.bsuir.wtlab2.dao
+by.bsuir.wtlab2.dao.impl
+by.bsuir.wtlab2.entities
+by.bsuir.wtlab2.exception
+by.bsuir.wtlab2.filters
+by.bsuir.wtlab2.logic
+by.bsuir.wtlab2.logic.impl
+by.bsuir.wtlab2.pool
